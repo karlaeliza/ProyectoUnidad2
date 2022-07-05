@@ -22,8 +22,9 @@ const App = () => {
     createPokemonObject(data.results)
   }
 
- useEffect(() => {
+ useEffect(() => { 
   getAllPokemons()
+  // eslint-disable-next-line
  }, [])
 
   return (
