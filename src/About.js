@@ -6,7 +6,7 @@ const Mostrardatos = () => {
     return (
         <div>
             <div>
-                <img className="Images" src="./img/me.jpg" alt="perfil"></img>
+                <img className="perfiles" src="./karla.jpeg" alt="perfil"></img>
             </div>
             <div>
             <h1>Karla Elizabeth Hernandez de Lira</h1><br></br>

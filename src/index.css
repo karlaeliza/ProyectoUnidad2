@@ -113,3 +113,16 @@ h3 {
   min-width: 50%;
   margin-top: 1rem;
 }
+.Imagen{
+  width: 300px;
+  height: 200px;
+  background-image: url("public/pokemon1.jpg");
+  background-size: contain;
+  background-position: center;
+
+}
+.perfiles{
+  width: 70px;
+  height: 80px;
+
+}
