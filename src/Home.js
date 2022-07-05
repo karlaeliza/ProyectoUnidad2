@@ -1,10 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css"
-import  Main  from "./Main.js"
-import Infos from "./Info.js"
-import Me from "./About.js"
-import Dir from "./Navbar.js"
+import "./index.css"
+import App from "./App"
+import Mostrardatos from "./About";
+
 
 const Home = () => {
   const Inicio = () => <h1>Home</h1>;
@@ -12,12 +11,12 @@ const Home = () => {
   const About = () => <h1>191373</h1>;
   return (
     <>
-    <Dir />
+ 
       <BrowserRouter>
         <Routes>
-          <Route path="/pokemons" element={<Main />}></Route>
-          <Route path="/pokemonsinfo" element={<Infos  />}></Route>
-          <Route path="/matricula" element={<Me />}></Route>
+          <Route path="/pokemons" element={<App  />}></Route>
+    
+          <Route path="/matricula" element={< Mostrardatos/>}></Route>
         </Routes>
       </BrowserRouter>
 

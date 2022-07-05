@@ -1,7 +1,7 @@
 import React from "react";
-import "./App.css"
+import "./index.css"
 
-const Me = () => {
+const Mostrardatos = () => {
 
     return (
         <div>
@@ -36,4 +36,4 @@ const Me = () => {
      );
 
 };
-export default Me;
+export default Mostrardatos;
