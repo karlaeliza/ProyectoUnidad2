@@ -12,7 +12,7 @@ const Home = () => {
   const About = () => <h1>191373</h1>;
   return (
     <>
-    <img className="Imagen" src="./pokemon1.jpg" alt="perfil"></img>
+    <img className="Imagen" src="./azul.jpg" alt="perfil"></img>
  <Informacion/>
       <BrowserRouter>
         <Routes>
