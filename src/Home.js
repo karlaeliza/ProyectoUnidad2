@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css"
 import App from "./App"
 import Mostrardatos from "./About";
+import Informacion from "./navbar";
 
 
 const Home = () => {
@@ -11,11 +12,10 @@ const Home = () => {
   const About = () => <h1>191373</h1>;
   return (
     <>
- 
+ <Informacion/>
       <BrowserRouter>
         <Routes>
           <Route path="/pokemons" element={<App  />}></Route>
-    
           <Route path="/matricula" element={< Mostrardatos/>}></Route>
         </Routes>
       </BrowserRouter>

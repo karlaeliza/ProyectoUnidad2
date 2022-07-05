@@ -1,15 +1,13 @@
 import React from "react";
 import "./index.css"
 
-const Dir = () => {
+const Informacion = () => {
 
     return (
         <div>
             <nav>
                 <ul>
                     <li><button><a href="/pokemons"> Pokemons first generation</a></button></li>
-                    
-                    <li><button><a href="/pokemonsinfo"> Pokemons Info </a></button></li>
                     <li><button><a href="/matricula"> 191373 </a></button></li>
                 </ul>
             </nav>
@@ -18,4 +16,4 @@ const Dir = () => {
 
 };
 
-export default Dir;
+export default Informacion;
